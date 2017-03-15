@@ -27,6 +27,7 @@
 		581F1A501E78A30500398723 /* detail-serval.json in Resources */ = {isa = PBXBuildFile; fileRef = 581F1A401E78A30500398723 /* detail-serval.json */; };
 		581F1A511E78A30500398723 /* detail-snow-leopard.json in Resources */ = {isa = PBXBuildFile; fileRef = 581F1A411E78A30500398723 /* detail-snow-leopard.json */; };
 		581F1A521E78A30500398723 /* detail-tiger.json in Resources */ = {isa = PBXBuildFile; fileRef = 581F1A421E78A30500398723 /* detail-tiger.json */; };
+		5852E7211E79869200EA9682 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5852E7201E79869200EA9682 /* Action.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		581F1A401E78A30500398723 /* detail-serval.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "detail-serval.json"; sourceTree = "<group>"; };
 		581F1A411E78A30500398723 /* detail-snow-leopard.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "detail-snow-leopard.json"; sourceTree = "<group>"; };
 		581F1A421E78A30500398723 /* detail-tiger.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "detail-tiger.json"; sourceTree = "<group>"; };
+		5852E7201E79869200EA9682 /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		581F1A1D1E78A11700398723 /* AdvancedCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				5852E71F1E79865C00EA9682 /* Framework */,
 				581F1A311E78A1A100398723 /* User Interface */,
 				581F1A321E78A2B100398723 /* Resources */,
 				581F1A301E78A16D00398723 /* Supporting Files */,
@@ -131,6 +134,14 @@
 				581F1A421E78A30500398723 /* detail-tiger.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		5852E71F1E79865C00EA9682 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				5852E7201E79869200EA9682 /* Action.swift */,
+			);
+			path = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				581F1A1F1E78A11700398723 /* AppDelegate.swift in Sources */,
+				5852E7211E79869200EA9682 /* Action.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +395,7 @@
 				581F1A2F1E78A11700398723 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
