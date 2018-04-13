@@ -24,7 +24,7 @@ extension StateMachineDelegate {
 
 class StateMachine {
     weak var delegate: StateMachineDelegate?
-    fileprivate(set) var currentState: String?
+    var currentState: String?
     var validTransitions: [String: [String]] = [:]
     
     func apply(state: String) -> Bool {
